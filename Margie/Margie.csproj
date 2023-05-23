@@ -6,10 +6,13 @@
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>false</IsPackable>
-    <SpaRoot>ClientApp\</SpaRoot>
+    <!-- <SpaRoot>ClientApp\</SpaRoot> -->
+    <SpaRoot>vite-project</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
-    <SpaProxyServerUrl>https://localhost:44452</SpaProxyServerUrl>
-    <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
+    <!-- <SpaProxyServerUrl>https://localhost:44452</SpaProxyServerUrl> -->
+    <SpaProxyServerUrl>http://localhost:5173</SpaProxyServerUrl>
+    <!-- <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand> -->
+    <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
